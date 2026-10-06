@@ -1,5 +1,7 @@
 # Production plan: Ouija
 
+Prompts for every image, music cue and sound effect we need to make are in `PROMPTS.md`.
+
 Builds on the house look in Reform Era's `review/DESIGN_STYLE_GUIDE.md` and the kit in `Slaveryvideo/video/src/kit/` (Highlight, Traced, Loop, Tint, ColourReveal, Stamp, Note, Doc, Quote, MapView, Bars, CountUp, Definition, Finish). Everything below either reuses a kit piece or names the one new piece it needs. The ideas are ranked by how much each lifts the video for the work it takes.
 
 ---
