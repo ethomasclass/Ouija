@@ -6,14 +6,12 @@ Real people (Kennard, Bond, Fuld, Pearl Curran, Conan Doyle, Faraday, Blatty) al
 
 ---
 
-## Status (Oct 6 batch)
+## Status (Oct 6)
 
-- **Received and filed:** all 21 images. All came back at 1376×768.
-- **Originals in `video/public/img/gen/`:** `hands_00_board`, `hands_1918_mother`, `ch03_novelty_workshop`, `ch05_patience_imagined`, `ch06_house_cutaway`, `thumb_split`.
-- **Only the magenta mask version arrived** for the other 15, filed in `gen/painted/`. Masks and teal outlines are already built from them in `video/public/img/masks/`. **Still needed: the original painting** (the image before the mask pass) for each of the 15, named as below:
-  `hands_1920_couple`, `hands_1913_pearl`, `hands_1967_kids`, `hands_1973_alone`, `ch01_basement`, `ch02_alphabet_seance`, `ch02_ohio_camp`, `ch03_patent_office`, `ch03_locket`, `ch04_parlor_chaperone`, `ch07_toy_aisle`, `ch07_sleepover`, `ch08_1949_house`, `ch08_theater_line`, `ch09_blindfold_lab`.
-- **Wanted if available:** the larger download (2K or 4K) of each. 1376×768 is below 1080p, and the depth moves zoom in.
-- **One extra image:** `board_flat.png`, the same sun-and-moon board as `hands_00_board` with **no planchette**, seen straight on and filling the whole frame edge to edge. It becomes the 3D board's texture, so the 3D board matches the paintings.
+- **All 21 images are in** `video/public/img/gen/`, as originals. Masks and teal outlines for the 15 with a mask pass are in `video/public/img/masks/`. They're pixel-aligned with the originals; checked automatically.
+- **Still wanted:**
+  - `board_flat.png` (#16), so the 3D board matches the painted sun-and-moon board.
+  - Larger downloads (2K or 4K) if Gemini offers them. Everything came in at 1376×768.
 
 # Part 0: Reused from the other repos (nothing to make)
 
