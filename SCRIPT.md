@@ -1,6 +1,6 @@
 # Good Luck: How the Ouija Board Went from Romantic to Scary
 
-**15 Minute History** · narration script · 1,563 words · about 8:53 of narration (about 9:30 finished, with the intro, breaks and breathing room)
+**15 Minute History** · narration script · 1,600 words · about 9:05 of narration (about 9:45 finished, with the intro, breaks and a 15-second end screen)
 
 **Driving question (asked in the cold open, answered in the last chapter):** How did a game for sweethearts become the object people are afraid to touch?
 **Answer:** the board never changed; the story around it did. Every generation put its biggest feeling into the pointer (love, then grief, then fun, then fear), and the ideomotor effect means the pointer goes where the players' own hands take it. *The Exorcist* didn't invent the fear, it gave everyone the same story at once, and the toy company eventually sold that story too.
@@ -58,7 +58,9 @@ Hold that thought. Toy, or spirit? Even the people selling it wouldn't say.
 
 Soon a young employee named William Fuld takes over and makes it his own. When a reporter asked if he believed in it, Fuld said: "I should say not. I'm no spiritualist. I'm a Presbyterian."
 
-## 3:20 | Knees Touching
+Quick thing before we go on. If you're enjoying this, the board would like you to subscribe. See? It's spelling it out. Okay, fine. That's my hand on the pointer. But it really does help the channel.
+
+## 3:32 | Knees Touching
 
 So who was buying it? A lot of young couples.
 
@@ -70,7 +72,7 @@ It's a parlor game with a built-in excuse to touch. And if the board says yes...
 
 By 1920, America is in a full Ouija craze. The summer before, Rockwell had watched couples at a dance hall in Potsdam, New York, sitting knee to knee over Ouija boards. That's where his cover came from.
 
-## 4:02 | Patience Worth
+## 4:14 | Patience Worth
 
 But at the same time, other people were taking it dead seriously.
 
@@ -82,7 +84,7 @@ Patience said she was an Englishwoman from the 1600s. Over the next twenty-four 
 
 So the same board that's a flirting game in one parlor is, in St. Louis, a doorway to a voice from three hundred years ago.
 
-## 4:40 | Empty Chairs
+## 4:52 | Empty Chairs
 
 And then the world gave millions of people a reason to need that doorway.
 
@@ -96,7 +98,7 @@ So picture one house around 1920. In the parlor, a teenager and her date, knees 
 
 Same object. Two completely different stories.
 
-## 5:36 | Next to Monopoly
+## 5:48 | Next to Monopoly
 
 In 1966, the Fuld family sold the Ouija board to Parker Brothers. The Monopoly company. Headquartered in Salem, Massachusetts. Yes, that Salem. I could not make that up.
 
@@ -106,7 +108,7 @@ But look at who's playing now. Kids at sleepovers. Lights off, flashlight on, wh
 
 Which made it the perfect setup for what came next.
 
-## 6:06 | Captain Howdy
+## 6:18 | Captain Howdy
 
 In 1949, priests performed an exorcism on a teenage boy from just outside Washington, D.C. According to some accounts, it all started after his aunt, a Spiritualist, taught him to use a Ouija board. A Georgetown student named William Peter Blatty read about it in the paper, and never forgot it.
 
@@ -118,7 +120,7 @@ The Exorcist didn't invent the fear. Some religious leaders had warned against t
 
 But here's the twist. Who kept selling that fear? In 2014, a horror movie called Ouija hit theaters. One of the companies behind it was Hasbro, which owns Parker Brothers. It made over a hundred million dollars. The toy company made a horror movie about its own toy.
 
-## 7:11 | Who Moves It?
+## 7:23 | Who Moves It?
 
 So, back to our question. How did a game for sweethearts become the object people are afraid to touch?
 
@@ -147,6 +149,7 @@ Turns out, that was up to whoever was holding it.
 - **Heavy chapter:** 6 (war and flu), and the answer section of 9. Use the style guide's heavy mode: teal lines only, no orange boxes or coral tint, slower voice.
 - **The before/after spine:** open on the Rockwell cover and the *Exorcist* basement side by side; return to both in ch09. A "same board" overlay (1891 Kennard board vs. a modern Hasbro board, letters lined up) is the visual answer.
 - **Callbacks to land visually:** "Knock once for yes" (Reform Era ch03 → ch02), "Toy, or spirit?" (ch03 → ch09), "Good luck" (ch03 → last line of ch09), Salem (ch07).
+- **Subscribe plug (end of ch03, ~3:10):** placed after the first laugh and the "toy or spirit?" hook, once viewers have gotten something but before the heavy middle. The planchette spells S-U-B-S-C-R-I-B-E on the board, then a teal note: *(ok, that was me)*. It quietly plants the ideomotor payoff for ch09. No spoken plug at the end, so the last line lands clean; use a 15-second end screen (music only) for the subscribe button and next video.
 - **Full motion-graphics plan:** see `PRODUCTION.md`.
 - **A running "who's holding it" tag:** couple (ch04) → Pearl Curran (ch05) → grieving mother (ch06) → kids at a sleepover (ch07) → Regan alone (ch08). Same pointer, different hands. This is the arc in one image.
 - **Text cards (public domain or short quotes):** the 1891 Pittsburgh ad, "Toy or Game" from the patent, Fuld's "I'm a Presbyterian," "Many moons ago I lived," Murch's *Psycho* line, the UBC 50% vs. 65% result as a simple bar.
