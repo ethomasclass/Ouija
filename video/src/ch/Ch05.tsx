@@ -22,12 +22,12 @@ const Serious: React.FC<{t: TL}> = ({t}) => (
 const Pearl: React.FC<{t: TL}> = ({t}) => {
   const g = useGFrame();
   return (
-    <Layered name="hands_1913_pearl" a={t.at('July') - 1} b={t.at('Many moons')} label="the same board: St. Louis, 1913" look="warm" tint traceAt={t.at('pointer spells') - 2}
+    <Layered name="hands_1913_pearl" a={t.at('July') - 1} b={t.at('Many moons')} label="the same board: St. Louis, 1913 · Pearl Curran, Washington Times, 1920" look="warm" tint traceAt={t.at('pointer spells') - 2}
       cam={{z: [1.06, 1.2], x: [0.02, -0.02]}} depth={1.05} fx={[{kind: 'flicker', x: 200, y: 300, r: 800, strength: 0.75}]}>
       {g >= t.at('July') && <Highlight text="JULY 8, 1913" x={1240} y={110} size={88} at={t.at('July')} seed={3} rot={-2} />}
       <Note text="St. Louis" x={1280} y={260} size={60} rot={-3} at={t.at('St.') - 2} color="#ffffff" />
-      <DropCard src="img/arch/pearl_curran.jpg" x={1400} y={430} w={360} rot={3} at={t.at('Pearl Curran') - 2} />
-      <Note text="Pearl Curran" x={1420} y={950} size={54} rot={-3} at={t.at('Pearl Curran')} />
+      <DropCard src="img/arch/pearl_curran_1920.jpg" x={1520} y={330} w={290} rot={3} at={t.at('Pearl Curran') - 2} />
+      <Note text="Pearl Curran" x={1160} y={960} size={58} rot={-3} at={t.at('Pearl Curran')} />
     </Layered>
   );
 };

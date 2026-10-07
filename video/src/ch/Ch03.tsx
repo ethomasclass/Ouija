@@ -136,16 +136,24 @@ const ToyOrSpirit: React.FC<{t: TL}> = ({t}) => {
   );
 };
 
+const FULD = 'img/arch/fuld_article_1920.jpg';
 const Fuld: React.FC<{t: TL}> = ({t}) => {
   const at = t.at;
   const pal = usePal();
   return (
     <Desk a={at('Soon a') - 1}>
-      <DropCard src="img/arch/william_fuld.jpg" x={160} y={160} w={480} rot={-3} at={at('Soon a')} />
-      <Note text="William Fuld" x={200} y={830} size={64} rot={-3} at={at('William Fuld') - 2} />
-      <Note text="“do you believe in it?”" x={760} y={150} size={56} rot={-3} at={at('asked if') - 2} color="#ffffff" />
-      <SyncQuote t={t} phrase="I should say not. I'm no spiritualist. I'm a Presbyterian." x={760} y={300} w={1060} size={66} marks={{7: pal.subject, 8: pal.subject}} />
-      <Tag text="William Fuld · via williamfuld.com / newspaper photo" />
+      <SrcView src={FULD} size={[1550, 1265]} card keys={[[at('Soon a'), 1600, 760, 0.55], [at('asked if') - 4, 1650, 900, 0.62]]}>
+        {(sw) => (
+          <>
+            <Loop cx={700} cy={95} rx={720} ry={110} at={at('William Fuld') - 2} width={sw(6)} seed={52} />
+            <Loop cx={1068} cy={1030} rx={330} ry={58} at={at('I should') - 2} width={sw(6)} seed={53} color={pal.subject} />
+          </>
+        )}
+      </SrcView>
+      <Note text="William Fuld, “Ouija Board King”" x={990} y={150} size={48} rot={-3} at={at('William Fuld') - 2} />
+      <Note text="“do you believe in it?”" x={1000} y={270} size={52} rot={-3} at={at('asked if') - 2} color="#ffffff" />
+      <SyncQuote t={t} phrase="I should say not. I'm no spiritualist. I'm a Presbyterian." x={1000} y={400} w={860} size={64} marks={{7: pal.subject, 8: pal.subject}} />
+      <Tag text="“Ouija Board King Scorns Spooks—He's a Presbyterian,” Evening Star, July 4, 1920 · Library of Congress" />
     </Desk>
   );
 };
