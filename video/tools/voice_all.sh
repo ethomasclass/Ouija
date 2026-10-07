@@ -4,6 +4,7 @@
 #   tools/voice_all.sh            ElevenLabs (needs ELEVENLABS_API_KEY and VOICE_ID, in the environment or video/.env)
 #   tools/voice_all.sh ch03       just the chapters whose file names start with these
 cd "$(dirname "$0")/.."
+export VOICE_ID=${VOICE_ID:-mI4rIAStSQeKeqsz4FwM}   # the narrator voice used in every previous video (from their words.json)
 for f in script/ch*.txt; do
   n=$(basename "$f" .txt)
   if [ $# -gt 0 ]; then case " $* " in *" ${n%%_*} "*) ;; *) continue ;; esac; fi
