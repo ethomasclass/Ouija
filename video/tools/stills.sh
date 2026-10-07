@@ -6,7 +6,7 @@ comp=$1; out=$2; shift 2
 mkdir -p out/stills
 rm -rf out/bundle_stills; npx remotion bundle src/index.ts --out-dir=out/bundle_stills --log=error >/dev/null
 for fr in "$@"; do
-  npx remotion still out/bundle_stills $comp out/stills/${comp}_$fr.png --frame=$fr --scale=0.5 --gl=swangle --browser-executable=$REMOTION_CHROME --log=error || echo "FAIL $fr"
+  npx remotion still out/bundle_stills $comp out/stills/${comp}_$fr.png --frame=$fr --scale=0.5 --gl=${GL:-angle} --browser-executable=$REMOTION_CHROME --log=error || echo "FAIL $fr"
 done
 python3 - "$out" "$comp" "$@" <<'PY'
 import sys

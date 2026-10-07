@@ -2,7 +2,7 @@
 # Render chapters, join them, master once:   tools/render.sh            (every chapter)
 #                                             tools/render.sh 03 07      (re-render only these, then rejoin)
 # Options via env: SCALE=0.5 for a fast half-size preview (writes out/<SLUG>_preview.mp4 instead of the master).
-# Writes out/<SLUG>_1080p.mp4 (YouTube master, -14 LUFS). 3D shots need WebGL: --gl=swangle works headless.
+# Writes out/<SLUG>_1080p.mp4 (YouTube master, -14 LUFS). 3D shots need WebGL: --gl=${GL:-angle} works headless.
 cd "$(dirname "$0")/.."
 export REMOTION_CHROME=${REMOTION_CHROME:-$(ls -d /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell 2>/dev/null | head -1)}
 BROWSER=${REMOTION_CHROME:+--browser-executable=$REMOTION_CHROME}
@@ -14,7 +14,7 @@ ALL=$(grep -o "id: 'Ch[0-9]*'" src/chapters.ts | grep -o '[0-9][0-9]*')
 mkdir -p out/ch_$TAG
 npx remotion bundle src/index.ts --out-dir=out/bundle --log=error || exit 1
 for n in ${*:-$ALL}; do
-  npx remotion render out/bundle Ch$n out/ch_$TAG/ch$n.mp4 --crf=18 --scale=$SCALE --concurrency=${CONC:-4} --gl=swangle $BROWSER --log=error || exit 1
+  npx remotion render out/bundle Ch$n out/ch_$TAG/ch$n.mp4 --crf=18 --scale=$SCALE --concurrency=${CONC:-4} --gl=${GL:-angle} $BROWSER --log=error || exit 1
   echo "rendered ch$n"
 done
 LIST=out/ch_$TAG/list.txt; : > $LIST
