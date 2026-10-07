@@ -192,6 +192,8 @@ The video's spine: one board and one angle; only the hands, light and props chan
 
 # Part 2: Suno music
 
+> **Not needed for this video:** we're out of Suno downloads, so every cue is reused from the other videos. See `MUSIC.md`. These prompts stay here for later.
+
 ## How to run them
 
 - **Mode:** Custom, **Instrumental ON**. Paste the **Styles** text as written, and the **Exclude** text into Exclude Styles.

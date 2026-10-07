@@ -17,7 +17,7 @@ const Sound: React.FC = () => {
   return (
     <>
       <Audio src={staticFile('audio/test_knock.wav')} />
-      <Audio src={staticFile('music/spirits.mp3')} volume={music} />
+      <Audio src={staticFile('music/r_spirits.mp3')} volume={music} />
       {/* plate */}
       <Sfx at={w('1848.')} src="sfx/marker_tick.wav" volume={0.22} />
       <Sfx at={w('Hydesville,')} src="sfx/marker_tick.wav" volume={0.2} />
