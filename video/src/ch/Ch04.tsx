@@ -18,7 +18,7 @@ const Couples: React.FC<{t: TL}> = ({t}) => {
   return (
     <Desk a={t.at('A lot') - 1}>
       <DropCard src="img/arch/rockwell_ouija_1920.jpg" x={760} y={150} w={430} rot={-3} at={t.at('A lot') - 1} filter={LOOK.warm} />
-      {g >= t.at('young couples') && <Highlight text="YOUNG COUPLES" x={1260} y={420} size={92} at={t.at('young couples')} seed={2} rot={-3} />}
+      {g >= t.at('young couples') && <Highlight text="YOUNG COUPLES" x={1230} y={420} size={74} at={t.at('young couples')} seed={2} rot={-3} />}
       <Note text="who was buying it?" x={150} y={180} size={60} rot={-3} at={2} color="#ffffff" />
     </Desk>
   );

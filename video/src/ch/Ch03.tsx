@@ -90,9 +90,9 @@ const Patent: React.FC<{t: TL}> = ({t}) => {
           </>
         )}
       </SrcView>
-      <Note text="only the inventors' word" x={1180} y={140} size={54} rot={-3} at={at('inventors') - 2} color="#ffffff" />
+      <Note text="only the inventors' word" x={1120} y={140} size={48} rot={-3} at={at('inventors') - 2} color="#ffffff" />
       <Note text="the patent itself:" x={1180} y={300} size={58} rot={-3} at={at('what we know') - 2} />
-      <Note text="not one word about spirits" x={1180} y={420} size={56} rot={-3} at={at("doesn't say") - 2} color="#ffffff" />
+      <Note text="not one word about spirits" x={1110} y={420} size={46} rot={-3} at={at("doesn't say") - 2} color="#ffffff" />
       {g >= at("It's filed") + 4 && <Highlight text="“TOY OR GAME”" x={1100} y={820} size={100} at={at("It's filed") + 4} seed={23} rot={-3} />}
       <Tag text="E. J. Bond, U.S. Patent 446,054, “Toy or Game,” Feb. 10, 1891 · USPTO" />
     </Desk>

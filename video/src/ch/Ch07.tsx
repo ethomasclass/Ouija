@@ -25,7 +25,7 @@ const Parker: React.FC<{t: TL}> = ({t}) => {
       <Note text="(the Monopoly company)" x={170} y={600} size={56} rot={-3} at={t.at('The Monopoly') - 2} />
       <Note text="Salem, Massachusetts" x={170} y={720} size={60} rot={-3} at={t.at('Salem,') - 2} color="#ffffff" />
       <DropCard src="img/arch/salem_witch_1892.jpg" x={1150} y={140} w={600} rot={3} at={t.at('that Salem') - 4} />
-      <Note text="yes, that Salem. (1692)" x={1140} y={900} size={64} rot={-4} at={t.at('that Salem') - 2} color={pal.subject} />
+      <Note text="yes, that Salem. (1692)" x={1060} y={870} size={58} rot={-4} at={t.at('that Salem') - 2} color={pal.subject} />
       <Tag text="“The Witch No. 1,” lithograph, Joseph E. Baker, 1892 · Library of Congress" />
     </Desk>
   );

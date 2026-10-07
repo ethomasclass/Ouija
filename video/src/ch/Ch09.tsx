@@ -26,7 +26,7 @@ const Back: React.FC<{t: TL}> = ({t}) => {
     <Desk a={0}>
       <Note text="back to our question:" x={200} y={170} size={60} rot={-3} at={4} color="#ffffff" />
       <Note text="a game for sweethearts…" x={260} y={340} size={86} rot={-3} at={t.at('How did') - 2} />
-      <Note text="…the object people are afraid to touch?" x={300} y={520} size={80} rot={-3} at={t.at('afraid') - 2} color={pal.subject} />
+      <Note text="…the object people are afraid to touch?" x={260} y={520} size={66} rot={-3} at={t.at('afraid') - 2} color={pal.subject} />
     </Desk>
   );
 };
@@ -53,7 +53,7 @@ const Compare: React.FC<{t: TL}> = ({t}) => {
 const Hands: React.FC<{t: TL}> = ({t}) => (
   <Layered name="hands_00_board" a={t.at('The story did') - 1} b={t.at('Remember')} label="the same board" look="warm" cam={{z: [1.15, 1.04]}}>
     <Note text="the story did." x={130} y={140} size={80} rot={-3} at={t.at('The story did') - 2} color="#ffffff" />
-    <Note text="whose hands were on it?" x={1180} y={900} size={60} rot={-3} at={t.at('whose hands') - 2} />
+    <Note text="whose hands were on it?" x={1100} y={870} size={56} rot={-3} at={t.at('whose hands') - 2} />
   </Layered>
 );
 
@@ -111,7 +111,7 @@ const Blindfold: React.FC<{t: TL}> = ({t}) => {
       {g >= t.at('2012') && <Highlight text="2012" x={110} y={110} size={110} at={t.at('2012')} seed={6} rot={-2} />}
       <Note text="researchers in Canada" x={120} y={290} size={52} rot={-3} at={t.at('researchers') - 2} color="#ffffff" />
       <Note text="blindfolded" x={1300} y={130} size={60} rot={-3} at={t.at('blindfolded') - 2} />
-      <Note text="partner quietly lets go" x={1250} y={880} size={56} rot={-3} at={t.at('let go') - 2} />
+      <Note text="partner quietly lets go" x={1170} y={860} size={54} rot={-3} at={t.at('let go') - 2} />
     </Layered>
   );
 };
@@ -127,7 +127,7 @@ const Results: React.FC<{t: TL}> = ({t}) => {
       ]} gap={200} />
       <Note text="pure chance" x={980} y={360} size={56} rot={-3} at={t.at('Pure chance') - 2} color="#ffffff" />
       <Note text="the board knew more than they thought they knew" x={150} y={760} size={54} rot={-3} at={t.at('The board knew') - 2} />
-      <Note text="because the board was them." x={190} y={880} size={76} rot={-3} at={t.at('board was them') - 4} color={pal.subject} />
+      <Note text="because the board was them." x={190} y={850} size={72} rot={-3} at={t.at('board was them') - 4} color={pal.subject} />
       <Tag text="Gauchou, Rensink & Fels, Consciousness and Cognition 21 (2012), University of British Columbia" />
     </Desk>
   );

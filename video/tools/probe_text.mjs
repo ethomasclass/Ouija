@@ -15,7 +15,7 @@ for (const id of ids) {
   const composition = await selectComposition({serveUrl, id, browserExecutable, inputProps});
   const outputDir = path.resolve('out/probe_frames');
   fs.mkdirSync(outputDir, {recursive: true});
-  await renderFrames({composition, serveUrl, inputProps, browserExecutable, outputDir, imageFormat: 'none', everyNthFrame: nth, frameRange: process.env.FRAMES ? process.env.FRAMES.split('-').map(Number) : null, concurrency: 2, timeoutInMilliseconds: 180000,
+  await renderFrames({composition, serveUrl, inputProps, browserExecutable, outputDir, imageFormat: 'none', everyNthFrame: nth, frameRange: process.env.FRAMES ? process.env.FRAMES.split('-').map(Number) : null, concurrency: 4, timeoutInMilliseconds: 180000, chromiumOptions: {gl: 'angle'},
     onStart: () => {}, onFrameUpdate: () => {},
     onBrowserLog: (log) => { if (log.text.startsWith('PROBECOUNT ')) counts[id] = (counts[id] || 0) + Number(log.text.slice(11)); else if (log.text.startsWith('PROBE ')) hits.push({id, ...JSON.parse(log.text.slice(6))}); }});
   console.log('checked', id, Math.ceil(composition.durationInFrames / nth), 'sampled frames,', counts[id] || 0, 'text boxes measured');
@@ -30,7 +30,7 @@ for (const h of hits.filter((h) => h.r > 0 && h.l < 1920 && h.b > 0 && h.t < 108
   else { s.f0 = Math.min(s.f0, h.f); s.f1 = Math.max(s.f1, h.f); if (h.over > s.maxOver) Object.assign(s, {maxOver: h.over, l: h.l, t: h.t, r: h.r, b: h.b}); }
 }
 const rows = [...seen.values()].sort((a, b) => a.id.localeCompare(b.id) || a.f0 - b.f0);
-for (const r of rows) console.log(`${r.id}  ${(r.f0 / 30).toFixed(1)}–${(r.f1 / 30).toFixed(1)}s  over ${r.maxOver}px  box ${r.l},${r.t} → ${r.r},${r.b}  "${r.text}"`);
+for (const r of rows) console.log(`${r.id}  ${(r.f0 / 24).toFixed(1)}–${(r.f1 / 24).toFixed(1)}s (frames ${r.f0}–${r.f1})  over ${r.maxOver}px  box ${r.l},${r.t} → ${r.r},${r.b}  "${r.text}"`);
 console.log(rows.length ? `${rows.length} overflowing text items` : 'no text crosses the frame edge');
 fs.writeFileSync('out/probe_report.json', JSON.stringify(rows, null, 1));
 fs.rmSync(serveUrl, {recursive: true, force: true});

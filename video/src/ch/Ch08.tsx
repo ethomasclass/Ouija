@@ -21,7 +21,7 @@ const House1949: React.FC<{t: TL}> = ({t}) => {
       {g >= t.at('1949') && <Highlight text="1949" x={110} y={120} size={110} at={t.at('1949')} seed={2} rot={-2} />}
       <Note text="an exorcism. a teenage boy." x={110} y={300} size={54} rot={-3} at={t.at('priests performed') - 2} color="#ffffff" />
       <Note text="some accounts: his aunt's Ouija board" x={110} y={860} size={52} rot={-3} at={t.at('According') - 2} />
-      <Note text="a Georgetown student read about it:" x={1000} y={120} size={48} rot={-3} at={t.at('Georgetown') - 2} color="#ffffff" />
+      <Note text="a Georgetown student read about it:" x={960} y={120} size={42} rot={-3} at={t.at('Georgetown') - 2} color="#ffffff" />
       <Note text="William Peter Blatty" x={1080} y={220} size={64} rot={-3} at={t.at('William Peter') - 2} />
     </Layered>
   );
@@ -46,7 +46,7 @@ const Line: React.FC<{t: TL}> = ({t}) => (
   <Layered name="ch08_theater_line" a={t.at('People lined') - 1} b={t.at('The Ouija historian')} label="a movie line, winter 1973" look="night" traceAt={t.at('around the block') - 2}
     cam={{z: [1.04, 1.14], x: [-0.02, 0.04]}} depth={1.04} fx={[{kind: 'steam', x: 720, y: 760}, {kind: 'snow'}, {kind: 'film'}]}>
     <Note text="lines around the block" x={1100} y={120} size={60} rot={-3} at={t.at('around the block') - 2} />
-    <Note text="one of the biggest movies ever made" x={1000} y={240} size={50} rot={-3} at={t.at('biggest') - 2} color="#ffffff" />
+    <Note text="one of the biggest movies ever made" x={940} y={240} size={44} rot={-3} at={t.at('biggest') - 2} color="#ffffff" />
   </Layered>
 );
 
@@ -98,7 +98,7 @@ const Twist: React.FC<{t: TL}> = ({t}) => {
       <Note text="(who owns Parker Brothers)" x={200} y={640} size={50} rot={-3} at={t.at('which owns') - 2} color="#ffffff" />
       <CountUp x={1060} y={380} to={100000000} prefix="$" suffix="+" at={t.at('hundred million') - 6} dur={24} size={110} color="#f4efe6" />
       <Note text="the toy company made a horror movie" x={160} y={820} size={60} rot={-3} at={t.at('The toy company') - 2} />
-      <Note text="about its own toy." x={260} y={930} size={76} rot={-3} at={t.at('its own toy') - 2} color={pal.subject} />
+      <Note text="about its own toy." x={260} y={880} size={68} rot={-3} at={t.at('its own toy') - 2} color={pal.subject} />
       <Tag text="Ouija (2014), Universal / Platinum Dunes / Blumhouse / Hasbro Studios · box office: Box Office Mojo" />
     </Desk>
   );

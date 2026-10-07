@@ -48,7 +48,7 @@ const Spiritualism: React.FC<{t: TL}> = ({t}) => {
       <DropCard src="img/reuse/soldier2.jpg" x={1060} y={450} w={260} rot={-2} at={t.at('Civil War') + 4} />
       <DropCard src="img/reuse/soldier3.jpg" x={1360} y={420} w={260} rot={3} at={t.at('Civil War') + 9} />
       <Note text="after the Civil War:" x={700} y={850} size={52} rot={-3} at={t.at('Civil War') - 2} color="#ffffff" />
-      <Note text="millions of grieving families" x={760} y={940} size={58} rot={-3} at={t.at('millions') - 2} color={pal.subject} />
+      <Note text="millions of grieving families" x={760} y={900} size={54} rot={-3} at={t.at('millions') - 2} color={pal.subject} />
       <Tag text="The Fox sisters, Currier lithograph, 1852 · Civil War soldiers, Library of Congress" />
     </Desk>
   );
@@ -98,7 +98,7 @@ const Tribune: React.FC<{t: TL}> = ({t}) => {
       <Note text="a shortcut:" x={900} y={420} size={60} rot={-3} at={t.at('shortcut') - 2} />
       <DropCard src="img/arch/tribune_1886_talking_board_detail.jpg" x={960} y={520} w={520} rot={3} at={t.at('talking board') - 2} />
       <Loop cx={1220} cy={720} rx={300} ry={190} at={t.at('alphabet printed') - 2} seed={5} />
-      <Note text="“talking board”" x={1180} y={940} size={66} rot={-3} at={t.at('talking board') - 2} color={pal.subject} />
+      <Note text="“talking board”" x={1150} y={890} size={60} rot={-3} at={t.at('talking board') - 2} color={pal.subject} />
       <Tag text="New York Tribune, 1886: Ohio Spiritualists' talking board · Library of Congress, Chronicling America" />
     </Desk>
   );
@@ -108,7 +108,7 @@ const Ohio: React.FC<{t: TL}> = ({t}) => (
   <Layered name="ch02_ohio_camp" a={t.at('Nobody has') - 1} b={t.at('And a few')} label="a Spiritualist camp, Ohio, 1886" tint traceAt={t.at('Nobody has') + 4}
     cam={{z: [1.05, 1.16], x: [0.02, 0.0], y: [0.0, 0.06]}} fx={[{kind: 'dust', x: 300, y: 80, w: 1300, h: 500}]}>
     <Note text="nobody calls out letters" x={110} y={120} size={56} rot={-3} at={t.at('Nobody has')} color="#ffffff" />
-    <Note text="the spirits just point." x={1150} y={880} size={66} rot={-3} at={t.at('just point') - 2} />
+    <Note text="the spirits just point." x={1040} y={860} size={64} rot={-3} at={t.at('just point') - 2} />
   </Layered>
 );
 

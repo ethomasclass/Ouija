@@ -27,7 +27,7 @@ const Pearl: React.FC<{t: TL}> = ({t}) => {
       {g >= t.at('July') && <Highlight text="JULY 8, 1913" x={1240} y={110} size={88} at={t.at('July')} seed={3} rot={-2} />}
       <Note text="St. Louis" x={1280} y={260} size={60} rot={-3} at={t.at('St.') - 2} color="#ffffff" />
       <DropCard src="img/arch/pearl_curran_1920.jpg" x={1520} y={330} w={290} rot={3} at={t.at('Pearl Curran') - 2} />
-      <Note text="Pearl Curran" x={1160} y={960} size={58} rot={-3} at={t.at('Pearl Curran')} />
+      <Note text="Pearl Curran" x={1160} y={930} size={56} rot={-3} at={t.at('Pearl Curran')} />
     </Layered>
   );
 };
