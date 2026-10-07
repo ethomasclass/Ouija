@@ -105,7 +105,7 @@ export const Ch05: React.FC = () => {
   const t = makeTimeline(N, 24);
   const at = t.at;
   return (
-    <ChapterShell n={N} audio="audio/ch05_patience_worth.wav" lead={LEAD} music={[{src: 'music/w_calm_sea.mp3', volume: 0.15}]}>
+    <ChapterShell n={N} audio="audio/ch05_patience_worth.wav" lead={LEAD} music={[{src: 'music/j_cold_open.mp3', volume: 0.27}]}>
       <Body t={t} />
       {notes.map((c) => <Sfx key={c} at={at(c) - 2} src={WRITE.src} volume={WRITE.volume} />)}
       {['July', 'Many moons', 'Patience said', 'Over the next', 'So the same'].map((c) => <Sfx key={c} at={at(c) - 2} src="sfx/whoosh.wav" volume={0.2} />)}

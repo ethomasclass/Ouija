@@ -27,10 +27,10 @@ The cold open plays **love, then a hard cut to fear** on the same frame as the p
 |---|---|---|---|
 | 1 | Two Pictures (0:00) | `j_good_feelings` → hard cut → `r_spirits_dark` | Sweet date night, then the basement. The cut on "Now jump ahead fifty-three years" is the whole video in one beat. |
 | — | Title card | `r_title_sting` | The channel sting. |
-| 2 | Knock Once for Yes (1:15) | `r_spirits`, from about 8 s in (it opens very quiet) | It was written for the Fox sisters: music box, detuned piano, soft knocks, curious and a little comic. Only the first half is used; the second half is the westward trek. |
+| 2 | Knock Once for Yes (1:17) | `r_intrigue` (your pick) | Sly suspense: clarinet and bassoon, sneaky pizzicato, a ticking harpsichord, a brass sting midway. Mysterious with a wink for "we could sell this." |
 | 3 | Good Luck (2:01) | `a_price` | "Caper underscore, Gilded Age confidence, sneaky build of tension, then a cheeky brass button at the end." That's 1890 businessmen and the patent-office legend. The button lands on "I'm a Presbyterian." It also runs under the subscribe plug. |
 | 4 | Knees Touching (3:20) | `j_good_feelings` | Love theme, second appearance: lilting parlor fiddle for the courting couples. |
-| 5 | Patience Worth (4:02) | `w_calm_sea`, first ~40 s | Calm, open and slightly uneasy, with a simple folk-like flute phrase (English, old), and a low cello creeping in after ~30 s, right at "to her readers, it looked like proof." Alternate: `r_utopia`'s pastoral opening. |
+| 5 | Patience Worth (4:22) | `j_cold_open` (King Andrew; your pick) | Restrained suspense: low cello, a soft ticking pulse, a lonely fiddle, building to a held, unresolved chord. |
 | 6 | Empty Chairs (4:40) | `w_aftermath` → `j_grief` at "So picture one house" | `w_aftermath`: low strings, a distant muffled field drum like a heartbeat, a mournful fiddle. That suits WWI and the flu. Then the grief theme for the mother upstairs. Heavy chapter: beds at 0.12. |
 | 7 | Next to Monopoly (5:36) | `r_schools` | Fun theme: bright, toy-like glockenspiel. The comic button lands on "It's the point." It cuts out for "Which made it the perfect setup…" (the line plays dry). |
 | 8 | Captain Howdy (6:06) | `r_spirits_dark` → `j_gossip` at "But here's the twist" | Fear theme for 1949 and *The Exorcist*. Then the twist turns wry: `j_gossip`'s sly pizzicato and "gasp" string swells for Hasbro making a horror movie about its own toy. |
