@@ -190,5 +190,61 @@
     "source_url": "https://archive.org/details/raymondorlifedea00lodg",
     "license": "Public domain (published 1916 in the U.S.)",
     "description": "Halftone portrait of 2nd Lt. Raymond Lodge in British Army officer's uniform with Sam Browne belt; he was killed in Flanders in 1915 and his father's book describes séance messages attributed to him."
+  },
+  "img/arch/flu_ward_1918_camp_funston.jpg": {
+    "title": "Emergency hospital during influenza epidemic, Camp Funston, Kansas (NCP 1603)",
+    "creator": "U.S. Army photographer; Otis Historical Archives, National Museum of Health and Medicine",
+    "date": "ca. 1918",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Emergency_hospital_during_Influenza_epidemic,_Camp_Funston,_Kansas_-_NCP_1603.jpg",
+    "license": "Public domain (U.S. Army / federal government work, ca. 1918; NMHM)",
+    "description": "Vast barracks-hall emergency ward packed with rows of cots holding sick soldiers, under exposed roof trusses, during the 1918 influenza epidemic at Camp Funston, Fort Riley, Kansas."
+  },
+  "img/arch/pearl_curran.jpg": {
+    "title": "Pearl Curran (frontispiece photo in 'The Case of Patience Worth')",
+    "creator": "Unknown photographer; published in Walter Franklin Prince, The Case of Patience Worth (Boston Society for Psychic Research)",
+    "date": "1927 (publication)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pearl_Curran.jpg",
+    "license": "Public domain (published 1927 in the U.S.; Commons-tagged PD)",
+    "description": "Halftone portrait of Pearl Lenore Curran, the St. Louis medium of 'Patience Worth', in a dark dress with a long beaded pendant necklace; likely early-to-mid 1920s. Low resolution (491x614)."
+  },
+  "img/arch/pearl_curran_1920.jpg": {
+    "title": "\"Mrs. John H. Curran, of St. Louis, the ouija board novelist\" — Washington Times, Jan. 25, 1920, p. 33 (magazine section)",
+    "creator": "The Washington Times (unknown photographer)",
+    "date": "1920-01-25",
+    "source_url": "https://www.loc.gov/resource/sn84026749/1920-01-25/ed-1/?sp=33",
+    "license": "Public domain (published 1920; Library of Congress, Chronicling America)",
+    "description": "Newspaper halftone of Pearl Curran with upswept hair, cut-out style, with caption 'Mrs. John H. Curran, of St. Louis, the ouija board novelist, poetess and adopted mother of the spirit-guided child, Patience Worth Wee' (first letters of caption lost in the page gutter)."
+  },
+  "img/arch/ouija_ghost_illustration_1920.jpg": {
+    "title": "Illustration for \"The Baby that is Being Raised by a 'Ghost'\" — Washington Times, Jan. 25, 1920, p. 33",
+    "creator": "Unknown staff artist, The Washington Times",
+    "date": "1920-01-25",
+    "source_url": "https://www.loc.gov/resource/sn84026749/1920-01-25/ed-1/?sp=33",
+    "license": "Public domain (published 1920; Library of Congress, Chronicling America)",
+    "description": "Pen-and-ink illustration of a hooded, skeletal ghost woman whose bony fingers rest on a Ouija board beside a young 1920s woman with curled hair and pearls, both guiding the board; caption fragment 'It is by means of the ouija board that Mrs. Curran...'."
+  },
+  "img/arch/fuld_article_1920.jpg": {
+    "title": "\"Ouija Board King Scorns Spooks—He's a Presbyterian\" — Evening Star (Washington, D.C.), July 4, 1920, Part 1, p. 2",
+    "creator": "Evening Star (special dispatch from Baltimore)",
+    "date": "1920-07-04",
+    "source_url": "https://www.loc.gov/resource/sn83045462/1920-07-04/ed-1/?sp=2",
+    "license": "Public domain (published 1920; Library of Congress, Chronicling America)",
+    "description": "Newspaper article crop: headline and short story reporting that the Ouija board made $1,000,000 for William Fuld of Baltimore, who says he is a Presbyterian and does not believe in it."
+  },
+  "img/arch/early_ouija_board.jpg": {
+    "title": "Ouija board — Kennard Novelty Company",
+    "creator": "Kennard Novelty Company, Baltimore (maker); photograph via Museum of Talking Boards",
+    "date": "ca. 1890 (board)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ouija_board_-_Kennard_Novelty_Company.jpg",
+    "license": "Public domain (Commons: {{PD-Art|PD-old-70-1923}} — faithful photographic reproduction of a ca. 1890 flat board)",
+    "description": "Early stenciled wooden Kennard 'Ouija' board: YES with a sun in the upper left, NO with moon and star upper right, arched alphabet, numerals 1–0, 'GOOD BYE', and stars in the bottom corners."
+  },
+  "img/arch/flu_masks_1918_seattle_police.jpg": {
+    "title": "Policemen in Seattle wearing masks made by the Red Cross, during the influenza epidemic, December 1918 (NARA 165-WW-269B-25)",
+    "creator": "U.S. War Department / American Red Cross; National Archives (Records of the War Department General and Special Staffs)",
+    "date": "1918-12",
+    "source_url": "https://commons.wikimedia.org/wiki/File:165-WW-269B-25-police-l.jpg",
+    "license": "Public domain (U.S. government record, National Archives 165-WW-269B-25; 1918)",
+    "description": "Rows of Seattle police officers in long coats and helmets, all wearing white gauze face masks, standing on a cobbled street, December 1918. (1920 px Commons rendition; original is 3762 px.)"
   }
 }
