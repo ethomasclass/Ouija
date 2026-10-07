@@ -158,5 +158,37 @@
     "source_url": "https://commons.wikimedia.org/wiki/File:Faraday_apparatus_for_ideomotor_effect_on_table_turning.png",
     "license": "Public domain (published 1853)",
     "description": "Engraving of several pairs of hands resting on Faraday's layered-board indicator, with a vertical pin and a long straw pointer that reveals unconscious sideways pushing by the sitters."
+  },
+  "img/arch/patience_worth_book.jpg": {
+    "title": "Patience Worth: A Psychic Mystery — title page",
+    "creator": "Casper S. Yost; Henry Holt and Company, New York",
+    "date": "1916",
+    "source_url": "https://archive.org/details/patienceworthpsy00yost",
+    "license": "Public domain (published 1916 in the U.S.)",
+    "description": "Title page: 'Patience Worth / A Psychic Mystery / By Casper S. Yost / New York, Henry Holt and Company, 1916' with the publisher's device; aged cream paper."
+  },
+  "img/arch/lodge_raymond.jpg": {
+    "title": "Raymond, or Life and Death — title page",
+    "creator": "Sir Oliver J. Lodge; George H. Doran Company, New York",
+    "date": "1916",
+    "source_url": "https://archive.org/details/raymondorlifedea00lodg",
+    "license": "Public domain (published 1916 in the U.S.)",
+    "description": "Title page: 'Raymond or Life and Death, with examples of the evidence for survival of memory and affection after death, by Sir Oliver J. Lodge, with eighteen illustrations', New York, George H. Doran Company."
+  },
+  "img/arch/lodge_raymond_cover.jpg": {
+    "title": "Raymond, or Life and Death — front cover",
+    "creator": "Sir Oliver J. Lodge; George H. Doran Company, New York",
+    "date": "1916",
+    "source_url": "https://archive.org/details/raymondorlifedea00lodg",
+    "license": "Public domain (published 1916 in the U.S.)",
+    "description": "Dark cloth front cover stamped in gold: 'Raymond or Life and Death by Sir Oliver Lodge'."
+  },
+  "img/arch/raymond_lodge_portrait.jpg": {
+    "title": "Raymond Lodge (frontispiece of 'Raymond, or Life and Death')",
+    "creator": "Unknown photographer; published by Sir Oliver J. Lodge / George H. Doran Company",
+    "date": "1916 (photo c. 1914–1915)",
+    "source_url": "https://archive.org/details/raymondorlifedea00lodg",
+    "license": "Public domain (published 1916 in the U.S.)",
+    "description": "Halftone portrait of 2nd Lt. Raymond Lodge in British Army officer's uniform with Sam Browne belt; he was killed in Flanders in 1915 and his father's book describes séance messages attributed to him."
   }
 }
