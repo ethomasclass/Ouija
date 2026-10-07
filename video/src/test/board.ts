@@ -25,8 +25,8 @@ export const GLYPHS: Glyph[] = [
 ];
 
 export const WORDS_ON_BOARD = {
-  YES: {x: 330, y: 215, size: 132},
-  NO: {x: 1718, y: 215, size: 132},
+  YES: {x: 560, y: 250, size: 118},
+  NO: {x: 1488, y: 250, size: 118},
   'GOOD BYE': {x: CX, y: 1175, size: 96},
 };
 
