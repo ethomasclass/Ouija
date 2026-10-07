@@ -1,6 +1,6 @@
 # Handoff: Good Luck (Ouija)
 
-A ~9:50 YouTube history video: how the Ouija board went from a date-night game to a horror villain. This page says where everything is and how to change or rebuild it.
+A 9:48 YouTube history video: how the Ouija board went from a date-night game to a horror villain. This page says where everything is and how to change or rebuild it.
 
 **Branch:** `ccr-6addf590-j2w0xz` on `ethomasclass/Ouija`
 
@@ -19,8 +19,10 @@ Rendering needs no keys: the voice, images and music are all committed. The Elev
 
 | What | Where |
 |---|---|
-| YouTube master, 1080p, −14 LUFS | `review/master/` (in parts if over GitHub's 100 MB limit; see below) |
+| YouTube master, 1080p, −14 LUFS | `review/master/` (three parts; join them as its README explains) |
+| 720p copy and 480p preview | `review/full/` |
 | Thumbnail | `review/Thumbnail_Good_Luck.png` |
+| Earlier production test | `review/Production_Test*.mp4`, `TEST_SCENE.md` |
 | Title, description, chapters, tags | `review/YouTube_description.md` |
 | Script with timings, fact-check flags, sources | `SCRIPT.md` |
 | Production plan / prompts / music plan | `PRODUCTION.md`, `PROMPTS.md`, `MUSIC.md` |

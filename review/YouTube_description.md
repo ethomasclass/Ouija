@@ -19,14 +19,14 @@ This is the history of the Ouija board: the Fox sisters and Spiritualism, the 18
 
 ⏱️ CHAPTERS
 0:00 Two pictures: Rockwell, 1920 and The Exorcist, 1973
-{CH02} Knock once for yes: the Fox sisters and the talking board
-{CH03} Good luck: Kennard, the patent and William Fuld
-{CH04} Knees touching: the Ouija board as a dating game
-{CH05} Patience Worth
-{CH06} Empty chairs: World War One and the 1918 flu
-{CH07} Next to Monopoly: Parker Brothers
-{CH08} Captain Howdy: The Exorcist and the fear
-{CH09} Who moves it? The ideomotor effect
+1:17 Knock once for yes: the Fox sisters and the talking board
+2:06 Good luck: Kennard, the patent and William Fuld
+3:39 Knees touching: the Ouija board as a dating game
+4:22 Patience Worth
+5:04 Empty chairs: World War One and the 1918 flu
+6:05 Next to Monopoly: Parker Brothers
+6:41 Captain Howdy: The Exorcist and the fear
+7:47 Who moves it? The ideomotor effect
 
 📚 SOURCES (selected)
 • Linda Rodriguez McRobbie, "The Strange and Mysterious History of the Ouija Board," Smithsonian Magazine (2013)
