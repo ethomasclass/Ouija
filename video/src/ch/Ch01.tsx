@@ -190,6 +190,10 @@ const Body: React.FC = () => {
       <Sequence from={jump} durationInFrames={END - jump} layout="none">
         <Audio src={staticFile('music/r_spirits_dark.mp3')} volume={(f) => interpolate(f, [0, 2, END - jump - 40, END - jump], [0, 0.15, 0.12, 0], clamp)} />
       </Sequence>
+      {/* a quiet music-box bed under the title card, after the intro's sting has faded */}
+      <Sequence from={END + INTRO_FRAMES - 30} durationInFrames={TITLE_FRAMES + 30} layout="none">
+        <Audio src={staticFile('music/r_spirits.mp3')} startFrom={240} volume={(f) => interpolate(f, [0, 30, TITLE_FRAMES, TITLE_FRAMES + 30], [0, 0.16, 0.16, 0], clamp)} />
+      </Sequence>
       <Sfx at={jump - 4} src="sfx/whoosh.wav" volume={0.45} />
       {cuts.slice(2).map(([f], i) => <Sfx key={i} at={f} src="sfx/whoosh.wav" volume={0.25} />)}
       {['1920', 'December', 'who changed'].map((c) => <Sfx key={c} at={at(c)} src="sfx/stamp.wav" volume={0.28} />)}
