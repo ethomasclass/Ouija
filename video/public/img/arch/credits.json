@@ -70,5 +70,53 @@
     "source_url": "https://www.loc.gov/item/2020712847/",
     "license": "Public domain (1891 U.S. Patent Office trademark record; LOC: 'No known restrictions on publication')",
     "description": "Trademark sheet with the script 'Ouija' logo, headed 'Trade-Mark. Kennard Novelty Company. Toys Known as Talking Boards. No. 18,919. Registered Feb. 3, 1891', with handwritten signatures and dates."
+  },
+  "img/arch/conan_doyle.jpg": {
+    "title": "Sir A. Conan Doyle",
+    "creator": "Bain News Service (publisher); George Grantham Bain Collection, Library of Congress",
+    "date": "ca. 1915–1920",
+    "source_url": "https://www.loc.gov/item/2014709898/",
+    "license": "Public domain (Bain News Service photo distributed ca. 1915–1920; LOC: 'No known restrictions on publication')",
+    "description": "Glass-negative portrait of Arthur Conan Doyle seated at a desk, pen in hand, dark background; Bain caption 'Sir A. Conan Doyle' scratched at top."
+  },
+  "img/arch/flu_ward_1918.jpg": {
+    "title": "Influenza ward, Walter Reed Hospital, Wash., D.C. [Nurse taking patient's pulse]",
+    "creator": "Harris & Ewing (photographer); Library of Congress Prints & Photographs",
+    "date": "1918-11-01 (copyright date)",
+    "source_url": "https://www.loc.gov/item/2016648028/",
+    "license": "Public domain (published/copyrighted 1918; LOC: 'No known restrictions on publication')",
+    "description": "A masked nurse in white takes the pulse of a patient in a bed on a long open-air porch ward lined with curtained beds during the 1918 influenza epidemic."
+  },
+  "img/arch/flu_masks_1918.jpg": {
+    "title": "Precautions taken in Seattle, Wash., during the Spanish Influenza Epidemic would not permit anyone to ride on the street cars without wearing a mask",
+    "creator": "American National Red Cross photograph collection, Library of Congress",
+    "date": "ca. 1918",
+    "source_url": "https://www.loc.gov/item/2017668638/",
+    "license": "Public domain (American Red Cross photo ca. 1918; LOC: 'No known restrictions on publication')",
+    "description": "A masked streetcar conductor on a 'Green Lake' Seattle streetcar turns away a man without a mask at the door, 1918."
+  },
+  "img/arch/flu_masks_1918_stlouis.jpg": {
+    "title": "St. Louis Red Cross Motor Corps on duty Oct. 1918 Influenza epidemic",
+    "creator": "American National Red Cross photograph collection, Library of Congress",
+    "date": "1918-10",
+    "source_url": "https://www.loc.gov/item/2011661525/",
+    "license": "Public domain (American Red Cross photo, 1918; LOC: 'No known restrictions on publication')",
+    "description": "Women of the St. Louis Red Cross Motor Corps in uniforms and gauze masks stand beside ambulances holding stretchers, October 1918."
+  },
+  "img/arch/wwi_soldiers.jpg": {
+    "title": "[American soldiers in trenches, France, 1918: USASC #23056 (near Verdun)]",
+    "creator": "U.S. Army Signal Corps; Library of Congress Prints & Photographs",
+    "date": "1918",
+    "source_url": "https://www.loc.gov/item/2007683016/",
+    "license": "Public domain (U.S. Army Signal Corps photograph, U.S. government work, 1918)",
+    "description": "Helmeted American infantrymen with rifles crouch along a chalky zig-zag trench near Verdun, open fields beyond."
+  },
+  "img/arch/wwi_soldiers_armistice.jpg": {
+    "title": "[U.S. Army in France - doughboys cheering news of Armistice]",
+    "creator": "Unknown photographer (U.S. Army in France series); Library of Congress Prints & Photographs",
+    "date": "1918",
+    "source_url": "https://www.loc.gov/item/2016652679/",
+    "license": "Public domain (1918 photograph; LOC: 'No known restrictions on publication'; likely U.S. Army Signal Corps)",
+    "description": "A dense crowd of American soldiers in helmets waving and cheering on news of the Armistice, November 1918."
   }
 }

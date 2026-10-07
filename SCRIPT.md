@@ -52,7 +52,7 @@ Then came the company's favorite legend. The patent office won't approve the boa
 
 Did that really happen? We only have the inventors' word. But here's what we know for sure. The patent doesn't say one word about spirits. It's filed as a "Toy or Game."
 
-And the first ads promise both. The Ouija answers questions "about the past, present and future with marvelous accuracy." It's also "a never-failing amusement." Price: a dollar fifty.
+And the first ads promise both. The Ouija answers questions "about the past, present and future with marvelous accuracy." It's also "a never-failing amusement." Price: a dollar forty-nine.
 
 Hold that thought. Toy, or spirit? Even the people selling it wouldn't say.
 
@@ -181,6 +181,8 @@ Turns out, that was up to whoever was holding it.
 - **Conan Doyle** had publicly embraced Spiritualism in 1916, before his son Kingsley died in 1918, so the narration doesn't say a loss *caused* his belief.
 - **"In 1967, it outsold Monopoly":** Smithsonian: two million boards sold in 1967, "outperforming Monopoly."
 - **Ouija (2014):** box office ~$103.6 million (Hasbro Studios, Blumhouse, Platinum Dunes).
+
+- **The 1891 ad's price:** the ad shown on screen (Danziger's, Pittsburg Dispatch, 1891) says "PRICE, $1 49," so the narration says "a dollar forty-nine." (Smithsonian quotes $1.50 from a different early ad.)
 
 ## Cut for time (13:20 → under 10:00)
 
