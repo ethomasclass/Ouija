@@ -21,7 +21,7 @@ Rendering needs no keys: the voice, images and music are all committed. The Elev
 |---|---|
 | YouTube master, 1080p, −14 LUFS | `review/master/` (three parts; join them as its README explains) |
 | 720p copy and 480p preview | `review/full/` |
-| Thumbnail | `review/Thumbnail_Good_Luck.png` |
+| Thumbnail | `review/thumbnails/` (three options, 1280×720) |
 | Earlier production test | `review/Production_Test*.mp4`, `TEST_SCENE.md` |
 | Title, description, chapters, tags | `review/YouTube_description.md` |
 | Script with timings, fact-check flags, sources | `SCRIPT.md` |

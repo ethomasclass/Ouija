@@ -54,6 +54,6 @@ ouija board, ouija board history, history of the ouija board, talking board, spi
 ## Upload settings
 
 - **Altered or synthetic content: Yes.** The video includes AI-illustrated historical scenes (labeled "Illustration") and an AI narrator.
-- **Thumbnail:** `review/Thumbnail_Good_Luck.png`.
+- **Thumbnail:** `review/thumbnails/` (three options, 1280×720).
 - **End screen:** the last 15 seconds hold an empty board with music only. Put the subscribe button and next video there.
 - **Not for kids.** The subject touches on an exorcism case and grief.

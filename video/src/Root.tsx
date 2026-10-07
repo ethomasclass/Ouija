@@ -7,7 +7,7 @@ import {ChannelIntro, INTRO_FRAMES} from './kit/Intro';
 import {BoardTexture} from './test/BoardTexture';
 import {TH, TW} from './test/board';
 import {TestScene} from './test/TestScene';
-import {Thumb} from './Thumbnail';
+import {Thumb, ThumbB, ThumbC} from './Thumbnail';
 import {END} from './test/timing';
 
 export const Root: React.FC = () => (
@@ -18,6 +18,8 @@ export const Root: React.FC = () => (
     <Composition id="Intro" width={W} height={H} fps={FPS} durationInFrames={INTRO_FRAMES} component={() => <JFonts><ChannelIntro /></JFonts>} />
     <Composition id="Test" width={W} height={H} fps={FPS} durationInFrames={END} component={(p: {labels: boolean}) => <JFonts><TestScene {...p} /></JFonts>} defaultProps={{labels: true}} />
     <Composition id="Thumb" width={W} height={H} fps={FPS} durationInFrames={1} component={() => <JFonts><Thumb /></JFonts>} />
+    <Composition id="ThumbB" width={W} height={H} fps={FPS} durationInFrames={1} component={() => <JFonts><ThumbB /></JFonts>} />
+    <Composition id="ThumbC" width={W} height={H} fps={FPS} durationInFrames={1} component={() => <JFonts><ThumbC /></JFonts>} />
     <Composition id="BoardTexture" width={TW} height={TH} fps={FPS} durationInFrames={1} component={() => <JFonts><BoardTexture /></JFonts>} />
   </>
 );
