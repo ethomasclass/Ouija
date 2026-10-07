@@ -118,5 +118,45 @@
     "source_url": "https://www.loc.gov/item/2016652679/",
     "license": "Public domain (1918 photograph; LOC: 'No known restrictions on publication'; likely U.S. Army Signal Corps)",
     "description": "A dense crowd of American soldiers in helmets waving and cheering on news of the Armistice, November 1918."
+  },
+  "img/arch/salem_witch_1892.jpg": {
+    "title": "The witch no. 1",
+    "creator": "Joseph E. Baker (artist); Geo. H. Walker & Co., Boston (publisher)",
+    "date": "1892 (c1892 Feb. 29)",
+    "source_url": "https://www.loc.gov/item/2003677961/",
+    "license": "Public domain (published 1892; LOC: 'No known restrictions on publication')",
+    "description": "Lithograph of a Salem witch-trial courtroom: an accused woman on a raised stand raises her arms as lightning flashes, judges recoil, a man lies on the floor, onlookers and pikemen crowd the room."
+  },
+  "img/arch/faraday_portrait.jpg": {
+    "title": "[Michael Faraday, half-length portrait, three-quarters to the right, seated in chair, hand resting on table]",
+    "creator": "Mathew B. Brady studio (daguerreotype); Library of Congress Daguerreotype Collection",
+    "date": "between 1844 and 1860",
+    "source_url": "https://www.loc.gov/item/2004663942/",
+    "license": "Public domain (created 1844–1860, author died 1896; LOC: 'No known restrictions on publication')",
+    "description": "Daguerreotype of Michael Faraday, seated, half-length, white cravat and dark coat; plate shows scratches and tarnish (cropped to the plate, mat removed)."
+  },
+  "img/arch/table_turning_1853.jpg": {
+    "title": "Un salon de Paris au mois de mai 1853 (L'Illustration, 14 May 1853, p. 1)",
+    "creator": "Ange-Louis Janet (Janet-Lange), engraving; L'Illustration, Journal Universel",
+    "date": "1853-05-14",
+    "source_url": "https://archive.org/details/l-illustration-1853-05-14",
+    "license": "Public domain (published 1853; marked Public Domain Mark 1.0 on Internet Archive)",
+    "description": "Wood engraving of a fashionable Paris salon during the 1853 table-turning craze: groups of men and women in crinolines stand around small round tables with hands laid on the tabletops."
+  },
+  "img/arch/table_turning_1853_page.jpg": {
+    "title": "L'Illustration, Journal Universel, No. 533, 14 May 1853 — front page",
+    "creator": "L'Illustration; engraving by Ange-Louis Janet (Janet-Lange)",
+    "date": "1853-05-14",
+    "source_url": "https://archive.org/details/l-illustration-1853-05-14",
+    "license": "Public domain (published 1853; marked Public Domain Mark 1.0 on Internet Archive)",
+    "description": "Full front page: masthead with a view of Paris and the Seine, 'Histoire de la semaine' column, and the large engraving of a Paris salon doing table-turning ('Un salon de Paris au mois de mai 1853'); library stamps and handwriting at top."
+  },
+  "img/arch/faraday_table_1853.jpg": {
+    "title": "Faraday's apparatus for testing table-turning (Illustrated London News, 16 July 1853)",
+    "creator": "After Michael Faraday's description; The Illustrated London News",
+    "date": "1853-07-16",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Faraday_apparatus_for_ideomotor_effect_on_table_turning.png",
+    "license": "Public domain (published 1853)",
+    "description": "Engraving of several pairs of hands resting on Faraday's layered-board indicator, with a vertical pin and a long straw pointer that reveals unconscious sideways pushing by the sitters."
   }
 }

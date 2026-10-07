@@ -14,7 +14,7 @@ ALL=$(grep -o "id: 'Ch[0-9]*'" src/chapters.ts | grep -o '[0-9][0-9]*')
 mkdir -p out/ch_$TAG
 npx remotion bundle src/index.ts --out-dir=out/bundle --log=error || exit 1
 for n in ${*:-$ALL}; do
-  npx remotion render out/bundle Ch$n out/ch_$TAG/ch$n.mp4 --crf=18 --scale=$SCALE --gl=swangle $BROWSER --log=error || exit 1
+  npx remotion render out/bundle Ch$n out/ch_$TAG/ch$n.mp4 --crf=18 --scale=$SCALE --concurrency=${CONC:-4} --gl=swangle $BROWSER --log=error || exit 1
   echo "rendered ch$n"
 done
 LIST=out/ch_$TAG/list.txt; : > $LIST
