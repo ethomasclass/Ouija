@@ -237,8 +237,14 @@ export const Arrow: React.FC<{x1: number; y1: number; x2: number; y2: number; bo
   );
 };
 
-export const Tag: React.FC<{text: string; x?: number; y?: number}> = ({text, x = 44, y = 1030}) => (
-  <div style={{position: 'absolute', left: x, top: y, fontFamily: JF.mono, fontSize: 18, letterSpacing: 1, color: 'rgba(255,255,255,0.85)', textTransform: 'uppercase',
+/** Where source tags sit: bottom-left of a 16:9 frame; Shorts move it above YouTube's caption area. */
+export const TagPos = React.createContext<{x: number; y: number; w?: number}>({x: 44, y: 1030});
+export const Tag: React.FC<{text: string; x?: number; y?: number}> = ({text, x, y}) => {
+  const pos = React.useContext(TagPos);
+  return <TagText text={text} x={x ?? pos.x} y={y ?? pos.y} w={pos.w} />;
+};
+const TagText: React.FC<{text: string; x: number; y: number; w?: number}> = ({text, x, y, w}) => (
+  <div style={{position: 'absolute', left: x, top: y, maxWidth: w, fontFamily: JF.mono, fontSize: 18, letterSpacing: 1, color: 'rgba(255,255,255,0.85)', textTransform: 'uppercase',
     textShadow: '0 1px 6px rgba(0,0,0,0.9)'}}>{text}</div>
 );
 

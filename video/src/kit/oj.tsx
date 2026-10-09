@@ -6,7 +6,7 @@
 //   SyncQuote  a quote that appears word by word exactly as the narrator says it.
 //   Arch       a full-bleed archival picture (B&W, slow push) with its source tag, or a labelled stand-in until it exists.
 import React from 'react';
-import {AbsoluteFill, Easing, getStaticFiles, Img, interpolate, random, spring, staticFile, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Easing, getStaticFiles, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {CameraMotionBlur} from '@remotion/motion-blur';
 import {noise2D} from '@remotion/noise';
 import {clamp} from '../lib/anim';
@@ -106,11 +106,16 @@ const Effect: React.FC<{fx: Fx}> = ({fx}) => {
     return <AbsoluteFill style={{mixBlendMode: 'multiply', opacity: 0.22, backgroundImage: 'radial-gradient(circle, rgba(0,0,0,0.9) 0.9px, transparent 1.4px)', backgroundSize: '5px 5px'}} />;
   }
   // film: gate weave is applied by the caller; here, a faint flicker of exposure and a few scratches
+  return <Film f={f} />;
+};
+
+const Film: React.FC<{f: number}> = ({f}) => {
+  const {width, height} = useVideoConfig();
   const fl = 0.04 + Math.abs(noise2D('ff', f * 0.8, 0)) * 0.05;
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
       <AbsoluteFill style={{background: '#fff', opacity: fl, mixBlendMode: 'overlay'}} />
-      {random(`scr${Math.floor(f / 3)}`) > 0.6 && <div style={{position: 'absolute', left: random(`scx${Math.floor(f / 3)}`) * 1920, top: 0, width: 1.5, height: 1080, background: 'rgba(255,255,255,0.25)'}} />}
+      {random(`scr${Math.floor(f / 3)}`) > 0.6 && <div style={{position: 'absolute', left: random(`scx${Math.floor(f / 3)}`) * width, top: 0, width: 1.5, height, background: 'rgba(255,255,255,0.25)'}} />}
     </AbsoluteFill>
   );
 };
@@ -123,6 +128,7 @@ const Effect: React.FC<{fx: Fx}> = ({fx}) => {
 export const Layered: React.FC<{name: string; a: number; b: number; label: string; cam?: Cam; depth?: number; look?: Look; tint?: boolean; traceAt?: number;
   fx?: Fx[]; reveal?: [number, number]; children?: React.ReactNode}> = ({name, a, b, label, cam = {}, depth = 1.07, look = 'bw', tint = false, traceAt, fx = [], reveal, children}) => {
   const f = useCurrentFrame();
+  const {width: FW, height: FH} = useVideoConfig();
   const pal = usePal();
   const mask = MASKS.get(name);
   const layered = mask && hasFile(`img/gen/layers/${name}_fg.png`);
@@ -131,12 +137,12 @@ export const Layered: React.FC<{name: string; a: number; b: number; label: strin
   const lerp = (r: [number, number] | undefined, d: number) => (r ? r[0] + (r[1] - r[0]) * u : d);
   const z = lerp(cam.z, 1.04 + 0.06 * u);
   const [W, H] = GEN_SIZE;
-  const base = Math.max(1920 / W, 1080 / H) * z;
+  const base = Math.max(FW / W, FH / H) * z;
   const cx = W / 2 + lerp(cam.x, 0) * W, cy = H / 2 + lerp(cam.y, 0) * H;
   const dr = {x: noise2D(`${name}x`, f * 0.018, 0) * 3, y: noise2D(`${name}y`, 0, f * 0.018) * 3};
   const place = (d: number) => {
     const s = base * d;
-    return {left: 960 - cx * s + dr.x * d, top: 540 - cy * s + dr.y * d, scale: s};
+    return {left: FW / 2 - cx * s + dr.x * d, top: FH / 2 - cy * s + dr.y * d, scale: s};
   };
   const filter = LOOK[look];
   const film = fx.some((x) => x.kind === 'film');
@@ -287,6 +293,7 @@ export const SyncQuote: React.FC<{t: TL; phrase: string; nth?: number; x: number
 export const SrcView: React.FC<{src: string; size: [number, number]; keys: [number, number, number, number][]; look?: Look; card?: boolean;
   children?: (sw: (px: number) => number) => React.ReactNode}> = ({src, size, keys, look = 'bw', card = false, children}) => {
   const f = useCurrentFrame();
+  const {width: FW, height: FH} = useVideoConfig();
   let k0 = keys[0], k1 = keys[0];
   for (let i = 0; i < keys.length; i++) {
     if (f >= keys[i][0]) { k0 = keys[i]; k1 = keys[Math.min(i + 1, keys.length - 1)]; }
@@ -296,7 +303,7 @@ export const SrcView: React.FC<{src: string; size: [number, number]; keys: [numb
   const d = {x: noise2D('svx', f * 0.018, 0) * 3, y: noise2D('svy', 0, f * 0.018) * 3};
   const pad = card ? 18 / s : 0;
   return (
-    <div style={{position: 'absolute', left: 0, top: 0, transformOrigin: '0 0', transform: `translate(${960 - x * s + d.x}px, ${540 - y * s + d.y}px) scale(${s})`}}>
+    <div style={{position: 'absolute', left: 0, top: 0, transformOrigin: '0 0', transform: `translate(${FW / 2 - x * s + d.x}px, ${FH / 2 - y * s + d.y}px) scale(${s})`}}>
       {card && <div style={{position: 'absolute', left: -pad, top: -pad, width: size[0] + 2 * pad, height: size[1] + 2 * pad, background: '#f4efe6', boxShadow: `0 ${18 / s}px ${40 / s}px rgba(0,0,0,0.7)`}} />}
       <Img src={staticFile(src)} style={{position: 'absolute', left: 0, top: 0, width: size[0], height: size[1], filter: LOOK[look]}} />
       {children?.((px) => px / s)}

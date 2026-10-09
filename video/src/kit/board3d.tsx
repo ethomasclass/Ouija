@@ -2,7 +2,7 @@
 // chapter titles spelled letter by letter, YES / NO answers, and the camera moves around them.
 // The board art is the BoardTexture composition (public/img/test/board_tex.png), matched to the Gemini paintings.
 import React, {useEffect, useMemo, useState} from 'react';
-import {AbsoluteFill, continueRender, delayRender, Easing, interpolate, spring, staticFile, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, continueRender, delayRender, Easing, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {ThreeCanvas} from '@remotion/three';
 import {useThree} from '@react-three/fiber';
 import {noise2D} from '@remotion/noise';
@@ -193,6 +193,7 @@ export const WhipBlur: React.FC<{id: string; speed: number; children: React.Reac
 /** A full-frame 3D board shot between frames a and b. Children are 2D overlays (titles, notes). */
 export const BoardShot: React.FC<Props & {children?: React.ReactNode; tiltShift?: boolean}> = ({children, tiltShift = true, ...p}) => {
   const f = useCurrentFrame();
+  const {width, height} = useVideoConfig();
   const tex = useTexture('img/test/board_tex.png');
   const w = (k: number) => (p.whipIn ? interpolate(k, [p.a, p.a + p.whipIn], [-2.4, 0], {...clamp, easing: Easing.out(Easing.exp)}) : 0);
   const mask = 'linear-gradient(180deg, #000 0%, transparent 14%, transparent 58%, #000 100%)';
@@ -200,7 +201,7 @@ export const BoardShot: React.FC<Props & {children?: React.ReactNode; tiltShift?
     <AbsoluteFill style={{background: '#0b0a08'}}>
       <WhipBlur id={`bw${p.a}`} speed={(w(f) - w(f - 1)) * 700}>
         {tex && (
-          <ThreeCanvas width={1920} height={1080} shadows gl={{antialias: true, preserveDrawingBuffer: true}}
+          <ThreeCanvas width={width} height={height} shadows gl={{antialias: true, preserveDrawingBuffer: true}}
             onCreated={({gl}) => { gl.toneMapping = THREE.ACESFilmicToneMapping; gl.toneMappingExposure = 1.15; gl.shadowMap.type = THREE.PCFSoftShadowMap; }}>
             <Scene tex={tex} {...p} />
           </ThreeCanvas>

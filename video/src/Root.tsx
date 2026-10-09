@@ -9,6 +9,7 @@ import {TH, TW} from './test/board';
 import {TestScene} from './test/TestScene';
 import {Thumb, ThumbB, ThumbC} from './Thumbnail';
 import {END} from './test/timing';
+import {Short01, SHORT01_FRAMES} from './short/Short01';
 
 export const Root: React.FC = () => (
   <>
@@ -20,6 +21,7 @@ export const Root: React.FC = () => (
     <Composition id="Thumb" width={W} height={H} fps={FPS} durationInFrames={1} component={() => <JFonts><Thumb /></JFonts>} />
     <Composition id="ThumbB" width={W} height={H} fps={FPS} durationInFrames={1} component={() => <JFonts><ThumbB /></JFonts>} />
     <Composition id="ThumbC" width={W} height={H} fps={FPS} durationInFrames={1} component={() => <JFonts><ThumbC /></JFonts>} />
+    <Composition id="Short01" width={1080} height={1920} fps={FPS} durationInFrames={SHORT01_FRAMES} component={() => <JFonts><Short01 /></JFonts>} />
     <Composition id="BoardTexture" width={TW} height={TH} fps={FPS} durationInFrames={1} component={() => <JFonts><BoardTexture /></JFonts>} />
   </>
 );
