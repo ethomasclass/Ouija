@@ -22,6 +22,12 @@ The Ouija board started as a date night game. 💘 In 1920, Norman Rockwell pain
 #Halloween #OuijaBoard #History #TheExorcist #Shorts
 ```
 
+## Tags
+
+```
+ouija board, ouija board history, ouija, wee gee board, ouija board scary, halloween, halloween history, scary history, the exorcist, captain howdy, norman rockwell, saturday evening post, history shorts, 15 minute history
+```
+
 ## Pinned comment
 
 ```
