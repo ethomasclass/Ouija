@@ -1,6 +1,6 @@
 # Short #1: "In 1920, this was a date"
 
-File: `review/shorts/Short01_this_was_a_date.mp4` (1080×1920, 52 s, −14 LUFS).
+File: `review/shorts/Short01_this_was_a_date.mp4` (1080×1920, 54 s, −14 LUFS).
 Narration and pictures are the long video's own cold open, re-framed for vertical. It ends on the
 question; the answer is in the long video.
 
